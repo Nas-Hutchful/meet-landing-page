@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+/* Styles for the logo */
+.logo{
+    text-align: center;
+    margin-top: 5rem;
+}
+.logo-image{
+    width: 119px;
+    height: 28px;
+}
+
+/* styles for the hero section */
+.hero-section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.813rem;
+    justify-content: space-evenly;
+
+}
+.hero-left-image{
+    width: 24.625rem;
+    height: 18.938rem;
+    margin-left: -2.1rem;
+    margin-top: -2rem;
+    /* overflow: hidden; */
+}
+.hero-text{
+    text-align: center;
+    margin-left: 9rem;
+    margin-right: 5rem;
+    margin-top: 3rem;
+    
+}
+.hero-right-image{
+    width: 24.625rem;
+    height: 18.938rem;
+    margin-left: 1.9rem;
+    margin-top: 3rem;
+    overflow: hidden;
+}
+.main-text{
+    font-size: 4rem;
+    font-weight: 900;
+    color: #28283D;
+    line-height: 4rem;
+    width: 27.813rem;
+    margin-left: 2rem;
+}
+.sub-text{
+    margin-top: 2.125rem;
+    width: 33.75rem;
+    font-size: 1.125rem;
+    font-weight:500;
+    line-height: 1.625rem;
+    color: #87879D;
+}
+.btns{
+    margin-top: 2rem;
+}
+.download-btn{
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1.625rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    border: none;
+    border-radius: 29px;
+    color: #ffff;
+    background-color: #4D96A9
+}
+span{
+    color: #8FE3F9;
+}
+.download-btn:hover{
+    background-color: #71C0D4;
+    cursor: pointer;
+}
+
+.what-btn{
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1.625rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    border: none;
+    border-radius: 29px;
+    color: #ffff;
+    background-color: #855FB1;
+
+}
+.what-btn:hover{
+    background-color: #B18BDD;
+    cursor: pointer;
+}
+
+/* Style for the numbers */
+
+.vertical-line{
+    border-right: 1px solid #87879D;
+    height: 84px;
+}
+
+.circle{
+    border: 1px solid #87879D;
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    align-content: center;
+    background-color: #ffff;
+}
+.in-section-numbers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 6.6875rem;
+    
+}
+
+
+/* styles for the four images */
+.img-1{
+    width: 15.938rem;
+    height: 15.125rem;
+    border-radius: 0.5rem;
+}
+.mid-images{
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    margin-left: 12rem;
+    column-gap: 6rem;
+    margin-top: 4rem;
+}
+
+
+/* Styles for the content section */
+.content-text{
+    text-align: center;
+    width: 33.75rem;
+    height: 15rem;
+    margin: auto;
+    margin-top: 5rem;
+    
+}
+.content-text-line1{
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1.625rem;
+    letter-spacing: 0.25rem;
+    color: #4D96A9;
+}
+.content-text-line2{
+    width: 27.813rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 2.75rem;
+    margin-top: 1rem;
+    color: #28283D;
+    margin-left: 3rem;
+}
+
+.content-text-line3{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.625rem;
+    width: 33.75rem;
+    color: #87879D;
+    text-align: center;
+}
+
+.in-section-numbers2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 4.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+/* footer style */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 308px;
+    position: relative;
+    padding: 0px 160px;
+    background-color: #4D96A9;
+    margin-top: -1.5rem;
+}
+
+
+.footer::before{
+    content: "";
+    background-image: url("./assets/desktop/image-footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.1;
+}
+
+.footer-left-text{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #ffff;
+    line-height: 2.75rem;
+    width: 21.875rem;
+}
+.footer-middle-text{
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #ffff;
+    width: 21.875rem;
+    line-height: 1.625rem;
+}
+.footer-btn{
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1.625rem;
+    width: 12.063rem;
+    height: 3.625rem;
+    border-radius: 29px;
+    color: #ffff;
+    background-color: #855FB1;
+    border-style: none;
+    position: relative;
+
+}
+.footer-btn span{
+    color: #D9B8FF;
+}
+
+.footer-btn:hover{
+    background-color: #B18BDD;
+    cursor: pointer;
+    
+}
